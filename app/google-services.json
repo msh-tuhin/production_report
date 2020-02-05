@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "597543198625",
+    "firebase_url": "https://productionreport-386e8.firebaseio.com",
+    "project_id": "productionreport-386e8",
+    "storage_bucket": "productionreport-386e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597543198625:android:507d1fdc67937d561535e0",
+        "android_client_info": {
+          "package_name": "com.productionreport.bd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597543198625-f5ljsmkeenm8dc1aqv4tk6eud0b5jbg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2pzdbqe_OXyB8W86RLFQ7XIkP5-A9u6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597543198625-f5ljsmkeenm8dc1aqv4tk6eud0b5jbg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
