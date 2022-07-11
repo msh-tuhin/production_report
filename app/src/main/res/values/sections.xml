@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item>Winding</item>
+        <item>Knitting</item>
+        <item>Linking</item>
+        <item>2nd_Inspection</item>
+        <item>Trimming_Mending</item>
+        <item>Iron_Wash</item>
+        <item>Label</item>
+        <item>Quality_Assurance</item>
+        <item>Packing</item>
+        <item>Carton</item>
+    </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+    <LinearLayout
+        android:id="@+id/form_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ApproveMember">
+
+        <TextView
+            style="@style/BlackBold16"
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+
+        <TextView
+            style="@style/Black16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Role:"
+            android:layout_marginTop="16dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <RadioButton
+                android:id="@+id/radio_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin"/>
+            <RadioButton
+                android:id="@+id/radio_supervisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Supervisor"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/spinner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+            <TextView
+                style="@style/Black16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Section:"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>
